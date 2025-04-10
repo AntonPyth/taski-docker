@@ -60,8 +60,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-
-
 DATABASES = {
     'default': {
         # Меняем настройку Django: теперь для работы будет использоваться
