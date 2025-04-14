@@ -63,7 +63,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         # Меняем настройку Django: теперь для работы будет использоваться
-        # бэкенд postgresql
+        # бэкенд postgresqlll
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('POSTGRES_DB', 'django'),
         'USER': os.getenv('POSTGRES_USER', 'django'),
